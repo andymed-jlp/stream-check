@@ -1,0 +1,36 @@
+{
+  "lastEventId": { "commitNum": 2675, "opNum": 1 },
+  "lastTrxTimestamp": 1643634737260,
+  "format": "NQUADS",
+  "records": [
+    {
+      "eventId": { "commitNum": 2672, "opNum": 1 },
+      "data": {
+        "stmt": "<https://test.com/s> <https://test.com/p> <https://test.com/o2> <http://test.com/test1> .\n"
+      },
+      "op": "ADD"
+    },
+    {
+      "eventId": { "commitNum": 2673, "opNum": 1 },
+      "data": {
+        "stmt": "<https://test.com/s> <https://test.com/p> <https://test.com/o2> <http://test.com/test1> .\n"
+      },
+      "op": "REMOVE"
+    },
+    {
+      "eventId": { "commitNum": 2674, "opNum": 1 },
+      "data": {
+        "stmt": "<https://test.com/s> <https://test.com/p> <https://test.com/o2> <http://test.com/test1> .\n"
+      },
+      "op": "ADD"
+    },
+    {
+      "eventId": { "commitNum": 2675, "opNum": 1 },
+      "data": {
+        "stmt": "<https://test.com/s> <https://test.com/p> <https://test.com/o3> <http://test.com/test1> .\n"
+      },
+      "op": "ADD"
+    }
+  ],
+  "totalRecords": 4
+}

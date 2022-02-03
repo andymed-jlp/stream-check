@@ -1,0 +1,1 @@
+curl -X GET "https://redacted.com/sparql/stream?commitNum=2672"
